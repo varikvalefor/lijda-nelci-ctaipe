@@ -87,18 +87,6 @@ ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a
 postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{lijda-dukse-xlafilri'a-tu'a-fa}\ .zoi.}
-ni'o ga naja ctaipe la'o zoi.\ \F{lijda-dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi lo nu seljda la'o zoi.\ \B l\ .zoi.\ cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.
-
-\begin{code}
-postulate
-  lijda-dukse-xlafilri'a-fa-tu'a : {l : Lijda}
-                                 → These
-                                   (turnysarcu l)
-                                   (xairgau-darsygau l)
-                                 → dukse-xlafilri'a-fa-tu'a l
-\end{code}
-
 \subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
