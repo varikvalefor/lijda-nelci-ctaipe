@@ -119,7 +119,7 @@ postulate la-varik : Prenu
 \end{code}
 
 \subsection{la'o zoi.\ \F{xagfilri'a-jdanei}\ .zoi.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ bau la .lojban.
+ni'o ro da zo'u ga naja tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei fi zo'e po la .varik.\ gi la .varik.\ cu nelci da
 
 \begin{code}
 postulate
