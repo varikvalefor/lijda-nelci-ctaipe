@@ -130,7 +130,7 @@ postulate
 \end{code}
 
 \section{la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.}
-ni'o la .varik. cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ bau la .lojban.
+ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le du'u ro da poi ke'a lijda zo'u ga naja tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.\ gi la .varik.\ cu nelci da
 
 \begin{code}
 la-varik-cu-jdanelci : {L : Lijda}
