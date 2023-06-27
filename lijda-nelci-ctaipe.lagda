@@ -25,7 +25,7 @@
 
 \newtheorem{thm}{Theorem}
 
-\title{le ctaipe be le du'u la .varik.\ cu nelci lo su'o lijda / The Proof of that VARIK Likes Some Religions}
+\title{le ctaipe be le su'u la .varik.\ cu nelci lo su'o lijda / The Proof of that VARIK Likes Some Religions}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
@@ -152,7 +152,7 @@ postulate xagfilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'oi .\F{jdafilri'a}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'oi .\F{jdafilri'a}.\ bau la .lojban.
+ni'o la .varik.\ cu na jinvi le su'u sarcu fa lo nu ciksi la'oi .\F{jdafilri'a}.\ bau la .lojban.
 
 \paragraph{English}
 VARIK not opines that necessary is that VARIK writes an English definition of \F{jdafilri'a}.
@@ -177,7 +177,7 @@ postulate la-varik : Prenu
 
 \subsection{la'o zoi.\ \F{xagfilri'a-jdanei}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ ctaipe le du'u ro da zo'u ga naja tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei fi zo'e po la .varik.\ gi la .varik.\ cu nelci da
+ni'o la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ ctaipe le su'u ro da zo'u ga naja tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei fi zo'e po la .varik.\ gi la .varik.\ cu nelci da
 
 \paragraph{English}
 \F{xagfilri'a-nelci} is a proof of that for all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
@@ -192,7 +192,7 @@ postulate
 
 \section{la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le du'u ro da poi ke'a lijda zo'u ga naja tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.\ gi la .varik.\ cu nelci da
+ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga naja tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.\ gi la .varik.\ cu nelci da
 
 \paragraph{English}
 \F{la-varik-cu-jdanelci} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
