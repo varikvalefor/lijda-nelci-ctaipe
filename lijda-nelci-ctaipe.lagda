@@ -107,10 +107,10 @@ postulate
 
 \subsection{la'oi .\F{xairgau-darsygau}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{xairgau-darsygau} \B l\ .zoi.\ gi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be la'o zoi.\ \B l\ .zoi.\ cu xairgau lo na seljda be la'o zoi.\ \B l\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \F{xairgau-darsygau} \B l\ .zoi.\ gi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be la'o zoi.\ \B l\ .zoi.\ cu xairgau lo na seljda be la'o zoi.\ \B l\ .zoi.\ ki'u lo su'u na seljda la'o zoi.\ \B l zoi.
 
 \paragraph{English}
-A proof of \F{xairgau-darsygau} \B l\ exists iff \B l\ encourages that the seljda/``true followers'' of \B l\ harm things which are not followers of \B l.
+A proof of \F{xairgau-darsygau} \B l\ exists iff (\B l\ encourages that the seljda/``true followers'' of \B l\ harm things which are not followers of \B l, and that harms is justified by that not follows the religion).
 
 \begin{code}
 postulate
