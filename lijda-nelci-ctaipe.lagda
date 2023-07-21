@@ -48,14 +48,14 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u ga je ro da zo'u ga janai l
 
 	Therefore, a religion $A$ exists such that VARIK likes $A$.
 \end{proof}
-\section{le vrici}
+\section{le vrici / The Miscellaneous}
 
 \begin{code}
 open import Function
 open import Relation.Nullary
 \end{code}
 
-\section{le jicmu}
+\section{le jicmu / The Basic}
 
 \subsection{la'oi .\F{Prenu}.}
 \paragraph{la .lojban.}
