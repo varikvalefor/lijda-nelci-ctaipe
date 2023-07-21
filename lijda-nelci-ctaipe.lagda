@@ -52,7 +52,6 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u ga je ro da zo'u ga janai l
 
 \begin{code}
 open import Function
-open import Data.These
 open import Relation.Nullary
 \end{code}
 
