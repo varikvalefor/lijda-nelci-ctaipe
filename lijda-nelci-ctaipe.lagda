@@ -25,6 +25,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
+\newcommand\OpF[1]{\AgdaOperator{\AgdaFunction{#1}}}
 
 \newtheorem{thm}{Theorem}
 
@@ -140,10 +141,10 @@ postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \Sym{cu-nelci} \B b\ exists iff \B a\ likes \B b.
+A proof of \B a \OpF{cu-nelci} \B b\ exists iff \B a\ likes \B b.
 
 \begin{code}
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
