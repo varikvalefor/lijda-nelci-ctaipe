@@ -61,13 +61,16 @@ open import Data.Product
     Σ
   )
 open import Relation.Nullary
+  using (
+    ¬_
+  )
 \end{code}
 
 \section{le jicmu / The Basic}
 
 \subsection{la'oi .\F{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ga jo la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\F{Prenu}.\ gi la'o zoi.\ \B a\ .zoi.\ prenu
+ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
 
 \paragraph{English}
 For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
@@ -78,7 +81,7 @@ postulate Prenu : Set
 
 \subsection{la'oi .\F{Lijda}.}
 \paragraph{la .lojban.}
-ni'o ga jo la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\F{Lijda}.\ gi la'o zoi.\ \B a\ .zoi.\ lijda
+ni'o ro da zo'u da ctaipe la'oi .\F{Lijda}.\ jo cu lijda
 
 \paragraph{English}
 For all $A$, \F{Lijda} is the type of $A$ iff $A$ is a religion.
