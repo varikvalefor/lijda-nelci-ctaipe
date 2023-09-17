@@ -8,6 +8,7 @@
 \usepackage{amssymb}
 \usepackage{parskip}
 \usepackage{mathabx}
+\usepackage{hyphenat}
 \usepackage{unicode-math}
 \usepackage{newunicodechar}
 
@@ -17,6 +18,8 @@
 \newunicodechar{₁}{\ensuremath{\mathnormal{_1}}}
 \newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
 \newunicodechar{≡}{\ensuremath{\mathnormal{\equiv}}}
+%\newunicodechar{Σ}{\ensuremath{\mathnormal\Sigma}}
+\newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
@@ -52,6 +55,11 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u ga je ro da zo'u ga janai l
 
 \begin{code}
 open import Function
+open import Data.Product
+  using (
+    _,_;
+    Σ
+  )
 open import Relation.Nullary
 \end{code}
 
@@ -202,5 +210,23 @@ la-varik-cu-jdanelci : {L : Lijda}
                      → ¬ (dukse-xlafilri'a-fa-tu'a L)
                      → la-varik cu-nelci L
 la-varik-cu-jdanelci x y = flip xagfilri'a-nelci y $ jdafilri'a x
+\end{code}
+
+\subsection{la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .varik.\ cu nelci lo su'o lijda  .i la .varik.\ cu stidi lo nu tcidu le torveki fa lo ro na jimpe be fi ko'a be'o poi ke'a djica lo nu ke'a jimpe fi ko'a
+
+\paragraph{English}
+\hyphenation{VA-RIK}
+\F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  VARIK suggests that for all $A$, if $A$ not understands about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then $A$ reads the summary.
+
+\begin{code}
+le-lijda-nelci-ctaipe : Σ Lijda $ λ L → la-varik cu-nelci L
+le-lijda-nelci-ctaipe = L , la-varik-cu-jdanelci filri'at narxlat
+  where
+  postulate
+    L : Lijda
+    filri'at : lo-nu-sezyze'a-cu-se-filri'a-tu'a L
+    narxlat : ¬ (dukse-xlafilri'a-fa-tu'a L)
 \end{code}
 \end{document}
