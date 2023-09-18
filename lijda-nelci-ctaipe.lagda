@@ -121,7 +121,7 @@ postulate
 ni'o ga jo ctaipe la'o zoi.\ \F{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
 \paragraph{English}
-A proof of \F{xairgau-darsygau} \B l\ exists iff (\B l\ encourages that the seljda/``true followers'' of \B l\ harm things which are not followers of \B l, and that harms is justified by that not follows the religion).
+A proof of \F{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
 
 \begin{code}
 postulate
