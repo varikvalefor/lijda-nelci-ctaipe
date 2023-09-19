@@ -123,8 +123,7 @@ ni'o ga jo ctaipe la'o zoi.\ \F{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'o 
 A proof of \F{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
 
 \begin{code}
-postulate
-  xairgau-darsygau : Lijda → Set
+postulate xairgau-darsygau : Lijda → Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
