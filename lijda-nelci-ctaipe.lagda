@@ -215,7 +215,7 @@ la-varik-cu-jdanelci : {L : Lijda}
 la-varik-cu-jdanelci x y = flip xagfilri'a-nelci y $ jdafilri'a x
 \end{code}
 
-\subsection{la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.}
+\section{la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .varik.\ cu nelci lo su'o lijda  .i la .varik.\ cu stidi lo nu tcidu le torveki fa lo ro na jimpe be fi ko'a be'o poi ke'a djica lo nu ke'a jimpe fi ko'a
 
