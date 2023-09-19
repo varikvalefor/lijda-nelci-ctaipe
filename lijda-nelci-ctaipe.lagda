@@ -112,8 +112,7 @@ ni'o ga jo ctaipe la'o zoi.\ \F{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'o
 A proof of \F{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts that coerces that becomes a follower of \B l. 
 
 \begin{code}
-postulate
-  turnysarcu : Lijda → Set
+postulate turnysarcu : Lijda → Set
 \end{code}
 
 \subsection{la'oi .\F{xairgau-darsygau}.}
