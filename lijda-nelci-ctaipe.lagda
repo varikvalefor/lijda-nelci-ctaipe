@@ -153,7 +153,7 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 ni'o ga jo ctaipe la'o zoi.\ \F{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo xamgu be fi zo'e po la .varik.
 
 \paragraph{English}
-A proof of \F{xagfilri'a-fa-tu'a} \B a\ exists iff $A$ facilitates stuff which is good by the standard of VARIK.
+A proof of \F{xagfilri'a-fa-tu'a} \B a\ exists iff \B a\ facilitates stuff which is good by the standard of VARIK.
 
 \begin{code}
 postulate xagfilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
