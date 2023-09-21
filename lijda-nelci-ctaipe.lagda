@@ -93,7 +93,7 @@ postulate Lijda : Set
 
 \subsection{la'o zoi.\ \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu tu'a la'o zoi.\ \B l\ .zoi.\ filri'a lo nu ko'a sezyze'a
+ni'o ga jo ctaipe la'o zoi.\ \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu lijda fa la'o zoi.\ \B l\ .zoi.\ ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
 
 \paragraph{English}
 A proof of \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
