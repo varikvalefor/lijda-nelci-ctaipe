@@ -138,7 +138,7 @@ If a proof of \F{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VA
 postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
