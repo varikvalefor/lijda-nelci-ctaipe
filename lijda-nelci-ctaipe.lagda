@@ -202,7 +202,7 @@ postulate
 
 \section{la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga naja tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.\ gi la .varik.\ cu nelci da
+ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.
 
 \paragraph{English}
 \F{la-varik-cu-jdanelci} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
