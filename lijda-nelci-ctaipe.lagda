@@ -18,7 +18,6 @@
 \newunicodechar{₁}{\ensuremath{\mathnormal{_1}}}
 \newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
 \newunicodechar{≡}{\ensuremath{\mathnormal{\equiv}}}
-%\newunicodechar{Σ}{\ensuremath{\mathnormal\Sigma}}
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 
 \newcommand\Sym\AgdaSymbol
