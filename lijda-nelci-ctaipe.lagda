@@ -176,7 +176,7 @@ postulate
 
 \subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ cu du la .varik.
+ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.
 
 \paragraph{English}
 \F{la-varik} is VARIK.
