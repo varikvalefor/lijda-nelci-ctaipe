@@ -187,7 +187,7 @@ postulate la-varik : Prenu
 
 \subsection{la'o zoi.\ \F{xagfilri'a-jdanei}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ ctaipe le su'u ro da zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ ctaipe le su'u ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
 \F{xagfilri'a-nelci} is a proof of that for all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
