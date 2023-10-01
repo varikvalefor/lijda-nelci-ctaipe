@@ -129,7 +129,7 @@ postulate xairgau-darsygau : Lijda → Set
 
 \subsection{la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'o zoi.\ \B l\ .zoi.\ dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.
+ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'o zoi.\ \B l\ .zoi.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
 If a proof of \F{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VARIK indicates that \B l\ excessively facilitates stuff which is bad by the standard of VARIK.
@@ -202,7 +202,7 @@ postulate
 
 \section{la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo nu sezyze'a kei jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ kei zo'e po la .varik.
+ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo nu sezyze'a kei jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
 \F{la-varik-cu-jdanelci} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
