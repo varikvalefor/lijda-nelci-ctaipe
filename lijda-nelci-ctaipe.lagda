@@ -38,7 +38,7 @@
 
 \section{le torveki / Summary}
 \subsection{la .lojban.}
-ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u ga je ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ gi tu'a lo su'o lijda cu filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u ga je ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ gi tu'a lo su'o lijda cu filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \subsection{English}
 \begin{thm}
