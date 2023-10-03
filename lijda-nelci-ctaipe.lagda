@@ -162,7 +162,7 @@ postulate xagfilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'oi .\F{jdafilri'a}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le su'u sarcu fa lo nu ciksi la'oi .\F{jdafilri'a}.\ bau la .lojban.
+ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'oi .\F{jdafilri'a}.\ bau la .lojban.
 
 \paragraph{English}
 VARIK not opines that necessary is that VARIK writes an English definition of \F{jdafilri'a}.
