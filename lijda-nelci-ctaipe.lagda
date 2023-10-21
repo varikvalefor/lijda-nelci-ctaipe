@@ -74,34 +74,34 @@ open import Relation.Nullary
 
 \section{le jicmu / The Basic}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'oi .\F{Lijda}.}
+\subsection{la'oi .\AgdaRecord{Lijda}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Lijda}.\ jo cu lijda
+ni'o ro da zo'u da ctaipe la'oi .\AgdaRecord{Lijda}.\ jo cu lijda
 
 \paragraph{English}
-For all $A$, \F{Lijda} is the type of $A$ iff $A$ is a religion.
+For all $A$, \AgdaRecord{Lijda} is the type of $A$ iff $A$ is a religion.
 
 \begin{code}
 postulate Lijda : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu lijda fa la'o zoi.\ \B l\ .zoi.\ ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu lijda fa la'o zoi.\ \B l\ .zoi.\ ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
 
 \paragraph{English}
-A proof of \F{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
+A proof of \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
 
 \begin{code}
 postulate
@@ -109,29 +109,29 @@ postulate
                                     → A → Set
 \end{code}
 
-\subsection{la'oi .\F{turnysarcu}.}
+\subsection{la'oi .\AgdaPostulate{turnysarcu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'o zoi.\ \B l\ .zoi.\ cu troci lo nu me'oi .coerce.\ lo nu binxo lo seljda be la'o zoi.\ \B l\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'o zoi.\ \B l\ .zoi.\ cu troci lo nu me'oi .coerce.\ lo nu binxo lo seljda be la'o zoi.\ \B l\ .zoi.
 
 \paragraph{English}
-A proof of \F{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts that coerces that becomes a follower of \B l. 
+A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts that coerces that becomes a follower of \B l. 
 
 \begin{code}
 postulate turnysarcu : Lijda → Set
 \end{code}
 
-\subsection{la'oi .\F{xairgau-darsygau}.}
+\subsection{la'oi .\AgdaPostulate{xairgau-darsygau}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
 \paragraph{English}
-A proof of \F{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
+A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
 
 \begin{code}
 postulate xairgau-darsygau : Lijda → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'o zoi.\ \B l\ .zoi.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
@@ -142,7 +142,7 @@ If a proof of \F{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VA
 postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
@@ -153,23 +153,23 @@ A proof of \B a \OpF{cu-nelci} \B b\ exists iff \B a\ likes \B b.
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{xagfilri'a-fa-tu'a}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo xamgu be fi zo'e po la .varik.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo xamgu be fi zo'e po la .varik.
 
 \paragraph{English}
-A proof of \F{xagfilri'a-fa-tu'a} \B a\ exists iff \B a\ facilitates stuff which is good by the standard of VARIK.
+A proof of \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ exists iff \B a\ facilitates stuff which is good by the standard of VARIK.
 
 \begin{code}
 postulate xagfilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'oi .\F{jdafilri'a}.}
+\subsection{la'oi .\AgdaPostulate{jdafilri'a}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'oi .\F{jdafilri'a}.\ bau la .lojban.
+ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'oi .\AgdaPostulate{jdafilri'a}.\ bau la .lojban.
 
 \paragraph{English}
-VARIK not opines that necessary is that VARIK writes an English definition of \F{jdafilri'a}.
+VARIK not opines that necessary is that VARIK writes an English definition of \AgdaPostulate{jdafilri'a}.
 
 \begin{code}
 postulate
@@ -178,23 +178,23 @@ postulate
              → xagfilri'a-fa-tu'a L
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
 
 \paragraph{English}
-\F{la-varik} is VARIK.
+\AgdaPostulate{la-varik} is VARIK.
 
 \begin{code}
 postulate la-varik : Prenu
 \end{code}
 
-\subsection{la'o zoi.\ \F{xagfilri'a-jdanei}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{xagfilri'a-jdanei}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{xagfilri'a-nelci}\ .zoi.\ ctaipe le su'u ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{xagfilri'a-nelci}\ .zoi.\ ctaipe le su'u ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
-\F{xagfilri'a-nelci} is a proof of that for all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
+\AgdaPostulate{xagfilri'a-nelci} is a proof of that for all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
 
 \begin{code}
 postulate
