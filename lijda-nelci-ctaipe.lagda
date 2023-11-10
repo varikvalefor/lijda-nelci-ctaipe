@@ -224,7 +224,7 @@ la-varik-cu-jdanelci x y = flip xagfilri'a-nelci y $ jdafilri'a x
 ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .varik.\ cu nelci lo su'o lijda  .i la .varik.\ cu stidi lo nu tcidu le torveki fa lo ro na jimpe be fi ko'a be'o poi ke'a djica lo nu ke'a jimpe fi ko'a
 
 \paragraph{English}
-\F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  VARIK suggests that for all $A$, if $A$ not understands about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then $A$ reads the summary.
+\F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  For all $A$, if $A$ not understands about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then VARIK recommends that $A$ reads the summary.
 
 \begin{code}
 le-lijda-nelci-ctaipe : Σ Lijda $ λ L → la-varik cu-nelci L
