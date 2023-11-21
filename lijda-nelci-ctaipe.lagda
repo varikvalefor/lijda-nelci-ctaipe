@@ -166,10 +166,10 @@ postulate xagfilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'oi .\AgdaPostulate{jdafilri'a}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'oi .\AgdaPostulate{jdafilri'a}.\ bau la .lojban.
+ni'o ro da zo'u ga janai da filri'a lo xamgu be fi zo'e po la .varik.\ gi lo nu da lijda ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
 
 \paragraph{English}
-VARIK not opines that necessary is that VARIK writes an English definition of \AgdaPostulate{jdafilri'a}.
+For all $A$, if $A$ facilitates that some prenu $T$ improves $T$, then $A$ facilitates stuff which is good by the standard of VARIK.
 
 \begin{code}
 postulate
