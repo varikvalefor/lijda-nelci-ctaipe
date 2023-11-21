@@ -173,7 +173,8 @@ VARIK not opines that necessary is that VARIK writes an English definition of \A
 
 \begin{code}
 postulate
-  jdafilri'a : {L : Lijda}
+  jdafilri'a : ∀ {a} → {A : Set a}
+             → {L : A}
              → lo-nu-sezyze'a-cu-se-filri'a-tu'a L
              → xagfilri'a-fa-tu'a L
 \end{code}
