@@ -213,7 +213,8 @@ ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a l
 \F{la-varik-cu-jdanelci} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
 
 \begin{code}
-la-varik-cu-jdanelci : {L : Lijda}
+la-varik-cu-jdanelci : ∀ {a} → {A : Set a}
+                     → {L : A}
                      → lo-nu-sezyze'a-cu-se-filri'a-tu'a L
                      → ¬ (dukse-xlafilri'a-fa-tu'a L)
                      → la-varik cu-nelci L
