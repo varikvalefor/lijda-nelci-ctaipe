@@ -98,7 +98,7 @@ postulate Lijda : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu la'o zoi.\ \B l\ .zoi.\ lijda ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu la'oi .\B{l}.\ lijda ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
 
 \paragraph{English}
 A proof of \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
@@ -111,7 +111,7 @@ postulate
 
 \subsection{la'oi .\AgdaPostulate{turnysarcu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'o zoi.\ \B l\ .zoi.\ cu troci lo nu me'oi .coerce.\ lo nu binxo lo seljda be la'o zoi.\ \B l\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'oi .\B{l}.\ cu troci lo nu me'oi .coerce.\ lo nu binxo lo seljda be la'oi .\B{l}.
 
 \paragraph{English}
 A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts to coerce becoming a follower of \B l.
@@ -122,7 +122,7 @@ postulate turnysarcu : Lijda → Set
 
 \subsection{la'oi .\AgdaPostulate{xairgau-darsygau}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'o zoi.\ \B l\ .zoi.\ darsygau ja co'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'oi .\B{l}.\ darsygau ja co'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
 \paragraph{English}
 A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
@@ -133,7 +133,7 @@ postulate xairgau-darsygau : Lijda → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'o zoi.\ \B l\ .zoi.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'oi .\B{l}.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
 If a proof of \F{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VARIK indicates that \B l\ excessively facilitates stuff which is bad by the standard of VARIK.
@@ -144,7 +144,7 @@ postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'oi .\B{a}.\ nelci la'oi .\B{b}.
 
 \paragraph{English}
 A proof of \B a \OpF{cu-nelci} \B b\ exists iff \B a\ likes \B b.
@@ -155,7 +155,7 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo xamgu be fi zo'e po la .varik.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'oi .\B{a}.\ filri'a lo xamgu be fi zo'e po la .varik.
 
 \paragraph{English}
 A proof of \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ exists iff \B a\ facilitates stuff which is good by the standard of VARIK.
