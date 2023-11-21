@@ -205,20 +205,20 @@ postulate
                    → la-varik cu-nelci x
 \end{code}
 
-\section{la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.}
+\section{la'o zoi.\ \F{varik-xagynei}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik-cu-jdanelci}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo nu sezyze'a kei jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o la'o zoi.\ \F{varik-xagynei}\ .zoi.\ ctaipe le su'u ro da poi ke'a lijda zo'u ga janai la .varik.\ cu nelci da gi tu'a da filri'a lo nu sezyze'a kei jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
-\F{la-varik-cu-jdanelci} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
+\F{varik-xagynei} is a proof of that for all religions $A$, if $A$ facilitates self-improvement, then if the standard of VARIK not indicates that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
 
 \begin{code}
-la-varik-cu-jdanelci : ∀ {a} → {A : Set a}
-                     → {L : A}
-                     → lo-nu-sezyze'a-cu-se-filri'a-tu'a L
-                     → ¬ (dukse-xlafilri'a-fa-tu'a L)
-                     → la-varik cu-nelci L
-la-varik-cu-jdanelci x y = flip xagfilri'a-nelci y $ jdafilri'a x
+varik-xagynei : ∀ {a} → {A : Set a}
+              → {L : A}
+              → lo-nu-sezyze'a-cu-se-filri'a-tu'a L
+              → ¬ (dukse-xlafilri'a-fa-tu'a L)
+              → la-varik cu-nelci L
+varik-xagynei x y = flip xagfilri'a-nelci y $ jdafilri'a x
 \end{code}
 
 \section{la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.}
@@ -230,7 +230,7 @@ ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .va
 
 \begin{code}
 le-lijda-nelci-ctaipe : Σ Lijda $ λ L → la-varik cu-nelci L
-le-lijda-nelci-ctaipe = L , la-varik-cu-jdanelci filri'at narxlat
+le-lijda-nelci-ctaipe = L , varik-xagynei filri'at narxlat
   where
   postulate
     L : Lijda
