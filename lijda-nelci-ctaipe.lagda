@@ -24,7 +24,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
-\newcommand\OpF[1]{\AgdaOperator{\AgdaFunction{#1}}}
+\newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
 \hyphenation{VA-RIK}
 
@@ -144,10 +144,10 @@ postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-nelci} \B b\ .zoi.\ gi la'oi .\B{a}.\ nelci la'oi .\B{b}.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-nelci} \B b\ .zoi.\ gi la'oi .\B{a}.\ nelci la'oi .\B{b}.
 
 \paragraph{English}
-A proof of \B a \OpF{cu-nelci} \B b\ exists iff \B a\ likes \B b.
+A proof of \B a \OpP{cu-nelci} \B b\ exists iff \B a\ likes \B b.
 
 \begin{code}
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
