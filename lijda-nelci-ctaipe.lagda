@@ -111,7 +111,7 @@ postulate
 
 \subsection{la'oi .\AgdaPostulate{turnysarcu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'oi .\B{l}.\ cu troci lo nu me'oi .coerce.\ lo nu binxo lo seljda be la'oi .\B{l}.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'oi .\B{l}.\ cu troci lo nu bapli lo nu binxo lo seljda be la'oi .\B{l}.
 
 \paragraph{English}
 A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts to coerce becoming a follower of \B l.
@@ -133,10 +133,10 @@ postulate xairgau-darsygau : Lijda → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga naja ctaipe la'o zoi.\ \F{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'oi .\B{l}.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o ga naja ctaipe la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'oi .\B{l}.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
-If a proof of \F{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VARIK indicates that \B l\ excessively facilitates stuff which is bad by the standard of VARIK.
+If a proof of \AgdaPostulate{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VARIK indicates that \B l\ excessively facilitates stuff which is bad by the standard of VARIK.
 
 \begin{code}
 postulate dukse-xlafilri'a-fa-tu'a : ∀ {a} → {A : Set a} → A → Set
