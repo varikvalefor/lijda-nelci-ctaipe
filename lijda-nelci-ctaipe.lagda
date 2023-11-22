@@ -125,7 +125,7 @@ postulate turnysarcu : Lijda → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'oi .\B{l}.\ darsygau pe'a ru'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
 \paragraph{English}
-A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and that harms $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
+A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and harming $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
 
 \begin{code}
 postulate xairgau-darsygau : Lijda → Set
