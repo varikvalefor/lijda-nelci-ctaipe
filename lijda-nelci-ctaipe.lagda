@@ -214,10 +214,10 @@ ni'o la'o zoi.\ \F{varik-xagynei}\ .zoi.\ ctaipe le su'u ro da zo'u ga janai la 
 
 \begin{code}
 varik-xagynei : ∀ {a} → {A : Set a}
-              → {L : A}
-              → lo-nu-sezyze'a-cu-se-filri'a-tu'a L
-              → ¬ (dukse-xlafilri'a-fa-tu'a L)
-              → la-varik cu-nelci L
+              → {x : A}
+              → lo-nu-sezyze'a-cu-se-filri'a-tu'a x
+              → ¬ (dukse-xlafilri'a-fa-tu'a x)
+              → la-varik cu-nelci x
 varik-xagynei x y = flip xagfilri'a-nelci y $ jdafilri'a x
 \end{code}
 
