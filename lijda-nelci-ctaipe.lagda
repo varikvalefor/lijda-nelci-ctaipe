@@ -61,6 +61,10 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u\ldots
 
 \begin{code}
 open import Function
+  using (
+    flip;
+    _$_
+  )
 open import Data.Product
   using (
     _,_;
