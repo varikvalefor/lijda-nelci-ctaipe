@@ -40,8 +40,8 @@
 \subsection{la .lojban.}
 ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ gi
-	\item tu'a lo su'o lijda cu filri'a lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+	\item ga je ro da zo'u ga janai da selnei la .varik.\ gi tu'a da filri'a ko'a goi lo xamgu be fi zo'e po la .varik.\ jenai cu dukse fi zo'e po la .varik.\ fe ko'e goi lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.\ gi
+	\item tu'a lo su'o lijda cu filri'a ko'a jenai cu dukse fi zo'e po la .varik.\ fe ko'e
 \end{itemize}
 
 \subsection{English}
