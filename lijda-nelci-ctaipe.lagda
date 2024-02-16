@@ -233,7 +233,7 @@ ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .va
 \F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  For all $A$, if $A$ not understands about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then VARIK recommends that $A$ reads the summary.
 
 \begin{code}
-le-lijda-nelci-ctaipe : Σ Lijda $ λ L → la-varik cu-nelci L
+le-lijda-nelci-ctaipe : Σ Lijda $ la-varik cu-nelci_
 le-lijda-nelci-ctaipe = L , varik-xagynei filri'at narxlat
   where
   postulate
