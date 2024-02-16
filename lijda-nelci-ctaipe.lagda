@@ -135,9 +135,9 @@ A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exi
 postulate xairgau-darsygau : Lijda → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga naja ctaipe la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-tu'a-fa} \B l\ .zoi.\ gi tu'a la'oi .\B{l}.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
+ni'o ga naja ctaipe la'o zoi.\ \AgdaPostulate{dukse-xlafilri'a-fa-tu'a} \B l\ .zoi.\ gi tu'a la'oi .\B{l}.\ dukse fi zo'e po la .varik.\ fe lo ka ce'u filri'a lo xlali be fi zo'e po la .varik.
 
 \paragraph{English}
 If a proof of \AgdaPostulate{dukse-xlafilri'a-fa-tu'a} \B l\ exists, then the standard of VARIK indicates that \B l\ excessively facilitates stuff which is bad by the standard of VARIK.
