@@ -53,7 +53,7 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u\ldots
 
 	For all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
 
-	A religion $A$ exists such that ($A$ facilitates stuff which is good by the standard of VARIK, and false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK).
+	A religion $A$ exists such that ($A$ facilitates stuff (which is good by the standard of VARIK), and false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK).
 
 	Therefore, a religion $A$ exists such that VARIK likes $A$.
 \end{proof}
