@@ -102,7 +102,7 @@ postulate Lijda : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu la'oi .\B{l}.\ lijda ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi su'o da poi ke'a prenu zo'u lo nu la'oi .\B{l}.\ lijda da cu filri'a lo nu da sezyze'a
 
 \paragraph{English}
 A proof of \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
