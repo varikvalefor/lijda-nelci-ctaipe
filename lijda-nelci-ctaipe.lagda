@@ -124,7 +124,7 @@ A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follo
 postulate turnysarcu : Lijda → Set
 \end{code}
 
-\subsection{la'oi .\AgdaPostulate{xairgau-darsygau}.}
+\subsection{la'o zoi.\ \AgdaPostulate{xairgau-darsygau}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'oi .\B{l}.\ darsygau pe'a ru'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
