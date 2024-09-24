@@ -159,7 +159,7 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'oi .\B{a}.\ filri'a lo xamgu be fi zo'e po la .varik.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ .zoi.\ gi tu'a la'oi .\B a.\ filri'a lo xamgu be fi zo'e po la .varik.
 
 \paragraph{English}
 A proof of \AgdaPostulate{xagfilri'a-fa-tu'a} \B a\ exists iff \B a\ facilitates stuff which is good by the standard of VARIK.
