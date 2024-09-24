@@ -115,7 +115,7 @@ postulate
 
 \subsection{la'oi .\AgdaPostulate{turnysarcu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'oi .\B l.\ cu troci lo nu bapli lo nu binxo lo seljda be la'oi .\B{l}.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{turnysarcu} \B l\ .zoi.\ gi lo ro seljda be la'oi .\B l.\ cu troci lo nu bapli lo nu binxo lo seljda be la'oi .\B l.
 
 \paragraph{English}
 A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follower'' of \B l\ attempts to coerce becoming a follower of \B l.
