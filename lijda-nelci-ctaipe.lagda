@@ -234,7 +234,7 @@ ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .va
 
 \begin{code}
 le-lijda-nelci-ctaipe : Σ Lijda $ la-varik cu-nelci_
-le-lijda-nelci-ctaipe = L , varik-xagynei filri'at narxlat
+le-lijda-nelci-ctaipe = _ , varik-xagynei filri'at narxlat
   where
   postulate
     L : Lijda
