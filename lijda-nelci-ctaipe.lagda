@@ -185,7 +185,7 @@ postulate
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o du la .varik.\ fa la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\
+ni'o du la .varik.\ fa la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.
 
 \paragraph{English}
 \AgdaPostulate{la-varik} is VARIK.
