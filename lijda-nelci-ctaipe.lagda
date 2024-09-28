@@ -53,7 +53,7 @@ ni'o la .varik.\ cu nelci lo su'o lijda ni'i le su'u\ldots
 
 	For all $A$, if $A$ facilitates stuff which is good by the standard of VARIK, then if false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK, then VARIK likes $A$.
 
-	A religion $A$ exists such that ($A$ facilitates stuff which is good by the standard of VARIK, and false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK).
+	A religion $A$ exists such that ($A$ facilitates stuff (which is good by the standard of VARIK), and false is that $A$ excessively facilitates stuff which is bad by the standard of VARIK).
 
 	Therefore, a religion $A$ exists such that VARIK likes $A$.
 \end{proof}
@@ -102,7 +102,7 @@ postulate Lijda : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi lo nu la'oi .\B l.\ lijda ko'a goi lo prenu cu filri'a lo nu ko'a sezyze'a
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ .zoi.\ gi su'o da poi ke'a prenu zo'u lo nu la'oi .\B{l}.\ lijda da cu filri'a lo nu da sezyze'a
 
 \paragraph{English}
 A proof of \AgdaPostulate{lo-nu-sezyze'a-cu-se-filri'a-tu'a} \B l\ exists iff a prenu $A$ exists such that \B l facilitates that $A$ improves $A$.
@@ -124,12 +124,12 @@ A proof of \AgdaPostulate{turnysarcu} \B l\ exists iff every seljda/``true follo
 postulate turnysarcu : Lijda → Set
 \end{code}
 
-\subsection{la'oi .\AgdaPostulate{xairgau-darsygau}.}
+\subsection{la'o zoi.\ \AgdaPostulate{xairgau-darsygau}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xairgau-darsygau} \B l\ .zoi.\ gi ko'a goi la'oi .\B{l}.\ darsygau pe'a ru'e lo nu lo seljda be ko'a cu xairgau ko'e goi lo na seljda be ko'a ki'u lo su'u ko'e na seljda ko'a
 
 \paragraph{English}
-A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ not is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and harming $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
+A proof of \AgdaPostulate{xairgau-darsygau} \B l\ exists iff (some prenu $A$ exists such that ($A$ is not a seljda/``true follower'' of \B l, and \B l\ encourages that the seljda/``true followers'' of \B l\ harm $A$, and harming $A$ is justified by that $A$ is not a seljda/``true follower'' of \B l)).
 
 \begin{code}
 postulate xairgau-darsygau : Lijda → Set
@@ -230,7 +230,7 @@ varik-xagynei x y = flip xagfilri'a-nelci y $ jdafilri'a x
 ni'o ko'a goi la'o zoi.\ \F{le-lijda-nelci-ctaipe}\ .zoi.\ ctaipe le su'u la .varik.\ cu nelci lo su'o lijda  .i la .varik.\ cu stidi lo nu tcidu le torveki fa lo ro na jimpe be fi ko'a be'o poi ke'a djica lo nu ke'a jimpe fi ko'a
 
 \paragraph{English}
-\F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  For all $A$, if $A$ not understands about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then VARIK recommends that $A$ reads the summary.
+\F{le-lijda-nelci-ctaipe} is a proof of that VARIK likes some religion\@.  For all $A$, if $A$ does-not understand about \F{le-lijda-nelci-ctaipe}, then if $A$ desires that $A$ understands about \F{le-lijda-nelci-ctaipe}, then VARIK recommends that $A$ reads the summary.
 
 \begin{code}
 le-lijda-nelci-ctaipe : Σ Lijda $ la-varik cu-nelci_
